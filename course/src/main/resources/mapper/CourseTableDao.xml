@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.dao.CourseTableDao">
+
+	<insert id="insertCourseTable">
+		<!-- 主键冲突 报错 -->
+		insert ignore into coursetable(sid,tnum,descr,cone,ctwo,cthree,cfour,cfive)
+		values(#{sid},#{tnum},#{descr},#{cone},#{ctwo},#{cthree},#{cfour},#{cfive})
+	</insert>
+
+	<select id="queryAll" resultType="CourseTable">
+		<!-- Mybatis可以自由控制SQL -->
+		select 
+            descr,
+            cone,
+            ctwo,
+            cthree,
+            cfour,
+            cfive
+		from coursetable
+		where sid = #{sid} and tnum = #{tnum}
+	</select>
+</mapper>

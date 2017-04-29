@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.dao.CampusDao">
+
+	<insert id="insertCampus" >
+		<!-- 主键冲突 报错 -->
+		insert ignore into campus(canum,caname)
+		values(#{canum},#{caname})
+	</insert>
+
+	<select id="queryAll" resultType="Campus">
+        SELECT
+        	canum,
+        	caname
+        FROM
+            campus
+        ORDER BY
+            caid
+    </select>
+
+</mapper>

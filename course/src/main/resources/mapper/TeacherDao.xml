@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.dao.TeacherDao">
+
+	<insert id="insertTeacher" >
+		<!-- 主键冲突 报错 -->
+		insert ignore into teacher(tnum,tname)
+		values(#{tnum},#{tname})
+	</insert>
+
+	<select id="queryAll" resultType="Teacher">
+        SELECT
+        	tnum,
+        	tname
+        FROM
+            teacher
+        ORDER BY
+            tid
+    </select>
+
+</mapper>

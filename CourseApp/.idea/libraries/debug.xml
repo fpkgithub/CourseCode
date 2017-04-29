@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_00839b5c8a5b7fadd67e37fc61aa70549b1c7821.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_42bad8c356db998c1ef9c05fb532809189294035.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_0a64b39beb6b4653c9be27f54ca197b53df5c908.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_a2f9c94e1838d7382496867ab7ef7912bdaedcc8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_1198f6a47029dc0cf1a274ffc54916742d775c37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/debug_668d6f5430e3abc2d32769673b0d9203548d72a5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_77bbafad21bc1ac169e6a221a15373f3eab9dd96.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_e058090abf41f5036832a521c2d3f4b4c78d6129.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_3b710e75c8bae44535b5ee96e9935304f8f5b2c0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_6029694bc1e45199a7f92348963695222436745f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/jsoup-1.6.0_6bc2059d24367ae70e813089f606ce5a7c8f4bb3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_b5c200bded333be6a92e6e214332a38456fc04ee.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_42da2f6ffcd9d31f42b0e61469ac8730f3058467.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_a5e78ff4d96c0a93d3d53168f3fdb664aaafbdf8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CourseApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_8a7710dd4db58f527430ed70144a802a0cc2190e.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

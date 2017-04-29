@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.dao.AdminClassDao">
+
+	<insert id="insertAdminClass" >
+		<!-- 主键冲突 报错 -->
+		insert ignore into admin_class(acnum,acname)
+		values(#{acnum},#{acname})
+	</insert>
+
+	<select id="queryAll" resultType="AdminClass">
+        SELECT
+        	acnum,
+        	acname
+        FROM
+            admin_class
+        ORDER BY
+            acid
+    </select>
+
+</mapper>

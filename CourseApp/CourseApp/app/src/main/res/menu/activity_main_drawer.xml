@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_teacher"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="教师课表"/>
+        <item
+            android:id="@+id/nav_class"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="任选课表"/>
+        <item
+            android:id="@+id/nav_room"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="教室课表"/>
+        <item
+            android:id="@+id/nav_any"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="班级课表"/>
+    </group>
+
+    <item android:title="系统">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="设置"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="帮助"/>
+        </menu>
+    </item>
+
+</menu>
